@@ -1,6 +1,0 @@
-
-Session Scope
-
-FQDN:
-
-hackthissite.org

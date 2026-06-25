@@ -1,6 +1,0 @@
-logo,
-week1-task
-organization :cyberstr
-role:red team interanship
-name:Muhammad Shafiq Goraya
-instructor:Umar Niaz

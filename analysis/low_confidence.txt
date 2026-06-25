@@ -1,4 +1,0 @@
-Session
-irc-ipv6.hackthissite.org
-*.hackthissite.org
-FQDN:
