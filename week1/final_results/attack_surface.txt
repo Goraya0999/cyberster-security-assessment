@@ -1,0 +1,84 @@
+##############################################################
+# ATTACK SURFACE — hackthissite.org
+# Red Team Internship | CyberStr | Week 1 Task
+# Intern: Muhammad Shafiq Goraya
+# Date: 2026-06-25
+##############################################################
+
+# ── HIGH CONFIDENCE (confirmed by 4+ sources) ─────────────
+www.hackthissite.org
+hackthissite.org
+www.irc.hackthissite.org
+irc.hackthissite.org
+wolf.irc.hackthissite.org
+lille.irc.hackthissite.org
+h5ai.hackthissite.org
+ctf.hackthissite.org
+status.hackthissite.org
+psrp.hackthissite.org
+
+# ── HIGH CONFIDENCE (confirmed by 3 sources) ──────────────
+wolf.irc-v6.hackthissite.org
+vm-200.outbound.firewall.hackthissite.org
+vm-150.outbound.firewall.hackthissite.org
+vm-099.outbound.firewall.hackthissite.org
+vm-050.outbound.firewall.hackthissite.org
+vm-005.outbound.firewall.hackthissite.org
+v3stage.hackthissite.org
+v3stage-cdn.hackthissite.org
+v3dev.hackthissite.org
+status-new.hackthissite.org
+stats.hackthissite.org
+staff.hackthissite.org
+qdb.hackthissite.org
+new-irc.hackthissite.org
+mta-sts.hackthissite.org
+mirror.hackthissite.org
+mail.hackthissite.org
+lille.irc-v6.hackthissite.org
+legal.hackthissite.org
+irc-www.hackthissite.org
+irc-wolf.hackthissite.org
+irc-v6.hackthissite.org
+irc-hub.hackthissite.org
+hp.hackthissite.org
+git.hackthissite.org
+forums.hackthissite.org
+email.hackthissite.org
+api.hackthissite.org
+
+# ── MEDIUM CONFIDENCE (2 sources) ─────────────────────────
+v3dev-cdn.hackthissite.org
+test.hackthissite.org
+smtp.hackthissite.org
+shadow.hackthissite.org
+pi.hackthissite.org
+ns2.hackthissite.org
+ns1.hackthissite.org
+live.hackthissite.org
+jupiter.hackthissite.org
+irc-lille.hackthissite.org
+int.hackthissite.org
+hub.irc.hackthissite.org
+htsv4.hackthissite.org
+gitlab.hackthissite.org
+daemon.hackthissite.org
+cloud.hackthissite.org
+cdn.hackthissite.org
+admin.hackthissite.org
+
+# ── CDN NODES (numbered) ──────────────────────────────────
+0-v3dev-cdn.hackthissite.org
+0-v3stage-cdn.hackthissite.org
+1-v3dev-cdn.hackthissite.org
+1-v3stage-cdn.hackthissite.org
+2-v3dev-cdn.hackthissite.org
+2-v3stage-cdn.hackthissite.org
+3-v3dev-cdn.hackthissite.org
+3-v3stage-cdn.hackthissite.org
+4-v3dev-cdn.hackthissite.org
+4-v3stage-cdn.hackthissite.org
+
+##############################################################
+# TOTAL UNIQUE SUBDOMAINS: 58
+##############################################################

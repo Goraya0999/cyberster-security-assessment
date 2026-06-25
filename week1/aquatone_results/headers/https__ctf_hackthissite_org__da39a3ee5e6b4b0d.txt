@@ -1,0 +1,21 @@
+200 OK
+Retry-Count: 0
+Content-Type: text/html; charset=utf-8
+Last-Modified: Sun, 06 Jan 2019 18:33:55 GMT
+Cache-Control: max-age=600
+Date: Thu, 25 Jun 2026 02:11:44 GMT
+Via: 1.1 varnish
+X-Cache-Hits: 1
+Etag: W/"5c324a13-c69"
+Age: 46
+X-Fastly-Request-Id: 363ee06a68cf761df0c867ccc7c347279c075d89
+Server: GitHub.com
+Access-Control-Allow-Origin: *
+X-Github-Request-Id: D728:37292:C127:13200:6A3C8160
+Accept-Ranges: bytes
+X-Cache: HIT
+Expires: Thu, 25 Jun 2026 01:26:16 GMT
+X-Proxy-Cache: MISS
+X-Served-By: cache-fjr990027-FJR
+X-Timer: S1782353504.377218,VS0,VE2
+Vary: Accept-Encoding

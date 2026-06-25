@@ -1,0 +1,12 @@
+400 Bad Request
+Content-Length: 3491
+Vary: Accept-Language
+X-Cache: MISS from serv
+Retry-Count: 0
+Mime-Version: 1.0
+Content-Type: text/html;charset=utf-8
+X-Squid-Error: ERR_INVALID_URL 0
+Content-Language: en
+X-Cache-Lookup: NONE from serv:8800
+Server: squid
+Date: Thu, 25 Jun 2026 02:11:48 GMT

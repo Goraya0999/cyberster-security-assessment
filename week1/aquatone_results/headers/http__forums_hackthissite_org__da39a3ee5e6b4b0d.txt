@@ -1,0 +1,15 @@
+403 Forbidden
+Date: Thu, 25 Jun 2026 02:11:55 GMT
+Access-Control-Allow-Origin: *
+Referrer-Policy: origin-when-cross-origin
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Content-Type: text/html; charset=iso-8859-1
+Public-Key-Pins-Report-Only: pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="; pin-sha256="Vjs8r4z+80wjNcr1YKepWQboSIRi63WsWXhIMN+eWys="; max-age=2592000; includeSubDomains; report-uri="https://hackthissite.report-uri.com/r/d/hpkp/reportOnly"
+Report-To: {"group":"default","max_age":31536000,"endpoints":[{"url":"https://hackthissite.report-uri.com/a/d/g"}],"include_subdomains":true}
+Content-Length: 318
+Nel: {"report_to":"default","max_age":31536000,"include_subdomains":true,"success_fraction":0.0,"failure_fraction":0.1}
+Retry-Count: 0
+Server: HackThisSite
+Content-Security-Policy: child-src 'self' hackthissite.org *.hackthissite.org htscdn.org *.htscdn.org discord.com; form-action 'self' hackthissite.org *.hackthissite.org htscdn.org *.htscdn.org; upgrade-insecure-requests; report-uri https://hackthissite.report-uri.com/r/d/csp/enforce
+X-Xss-Protection: 0
+Feature-Policy: fullscreen *

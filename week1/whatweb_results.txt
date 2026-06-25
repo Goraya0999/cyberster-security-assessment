@@ -1,0 +1,53 @@
+===https://www.irc.hackthissite.org===
+[1m[34mhttps://www.irc.hackthissite.org[0m [200 OK] [1mCountry[0m[[0m[22mCANADA[0m][[1m[31mCA[0m], [1mHTTPServer[0m[[1m[36mHackThisSite IRC[0m], [1mIP[0m[[0m[22m137.74.187.153[0m], [1mPoweredBy[0m[[0m[22mFreeBSD,PHP[0m], [1mStrict-Transport-Security[0m[[0m[22mmax-age=31536000; includeSubDomains; preload[0m], [1mTitle[0m[[1m[33mHackThisSite IRC[0m]
+ 
+===https://www.hackthissite.org===
+[1m[34mhttps://www.hackthissite.org[0m [200 OK] [1mContent-Language[0m[[0m[22men[0m], [1mCookies[0m[[0m[22mHackThisSite[0m], [1mCountry[0m[[0m[22mCANADA[0m][[1m[31mCA[0m], [1mHTTPServer[0m[[1m[36mHackThisSite[0m], [1mIP[0m[[0m[22m137.74.187.101[0m], [1mJQuery[0m[[1m[32m1.8.1[0m], [1mMeta-Author[0m[[0m[22mHackThisSite.org Staff[0m], [1mOpen-Graph-Protocol[0m[[1m[32mwebsite[0m], [1mPasswordField[0m[[0m[22mpassword[0m], [1mScript[0m[[0m[22mtext/javascript[0m], [1mStrict-Transport-Security[0m[[0m[22mmax-age=31536000; includeSubDomains; preload[0m], [1mTitle[0m[[1m[33mHack This Site[0m], [1mUncommonHeaders[0m[[0m[22mupgrade,onion-location,access-control-allow-origin,content-security-policy,referrer-policy,feature-policy,public-key-pins-report-only,report-to,nel[0m], [1mX-XSS-Protection[0m[[0m[22m0[0m]
+ 
+===https://wolf.irc.hackthissite.org===
+[1m[34mhttps://wolf.irc.hackthissite.org[0m [301 Moved Permanently] [1mCountry[0m[[0m[22mNETHERLANDS[0m][[1m[31mNL[0m], [1mHTTPServer[0m[[1m[31mUbuntu Linux[0m][[1m[36mnginx/1.18.0 (Ubuntu)[0m], [1mIP[0m[[0m[22m185.24.222.13[0m], [1mRedirectLocation[0m[[0m[22mhttps://www.irc.hackthissite.org/[0m], [1mStrict-Transport-Security[0m[[0m[22mmax-age=63072000; includeSubDomains; preload[0m], [1mTitle[0m[[1m[33m301 Moved Permanently[0m], [1mUncommonHeaders[0m[[0m[22mx-content-type-options[0m], [1mX-Frame-Options[0m[[0m[22mDENY[0m], [1mnginx[0m[[1m[32m1.18.0[0m]
+[1m[34mhttps://www.irc.hackthissite.org/[0m [200 OK] [1mCountry[0m[[0m[22mCANADA[0m][[1m[31mCA[0m], [1mHTTPServer[0m[[1m[36mHackThisSite IRC[0m], [1mIP[0m[[0m[22m137.74.187.153[0m], [1mPoweredBy[0m[[0m[22mFreeBSD,PHP[0m], [1mStrict-Transport-Security[0m[[0m[22mmax-age=31536000; includeSubDomains; preload[0m], [1mTitle[0m[[1m[33mHackThisSite IRC[0m]
+ 
+===https://status.hackthissite.org===
+[1m[34mhttps://status.hackthissite.org[0m [302 Found] [1mCountry[0m[[0m[22mLUXEMBOURG[0m][[1m[31mLU[0m], [1mIP[0m[[0m[22m89.106.200.1[0m], [1mRedirectLocation[0m[[0m[22mhttps://hackstatus.org[0m], [1mStrict-Transport-Security[0m[[0m[22mmax-age=31536000; preload[0m], [1mUncommonHeaders[0m[[0m[22mpermissions-policy,referrer-policy,x-content-type-options,x-server[0m], [1mX-Powered-By[0m[[0m[22mredirect.pizza[0m]
+[1m[34mhttps://hackstatus.org[0m [200 OK] [1mBootstrap[0m, [1mCookies[0m[[0m[22mPHPSESSID[0m], [1mCountry[0m[[0m[22mCANADA[0m][[1m[31mCA[0m], [1mHTML5[0m, [1mHttpOnly[0m[[0m[22mPHPSESSID[0m], [1mIP[0m[[0m[22m192.95.8.47[0m], [1mJQuery[0m[[1m[32m3.6.0[0m], [1mPoweredBy[0m[[0m[22m&utm_source=wl-standalone&utm_content=uptime,HetrixTools[0m], [1mScript[0m[[0m[22mtext/javascript[0m], [1mStrict-Transport-Security[0m[[0m[22mmax-age=63072000; includeSubdomains[0m], [1mTitle[0m[[1m[33mHackSite Network - Service Status - Powered by HetrixTools[0m], [1mUncommonHeaders[0m[[0m[22malt-svc,content-security-policy,referrer-policy,x-content-type-options[0m], [1mX-UA-Compatible[0m[[0m[22mIE=edge[0m]
+ 
+===https://psrp.hackthissite.org===
+ 
+===https://lille.irc.hackthissite.org===
+[1m[34mhttps://lille.irc.hackthissite.org[0m [301 Moved Permanently] [1mCountry[0m[[0m[22mCANADA[0m][[1m[31mCA[0m], [1mIP[0m[[0m[22m137.74.187.152[0m], [1mRedirectLocation[0m[[0m[22mhttps://www.irc.hackthissite.org/[0m]
+[1m[34mhttps://www.irc.hackthissite.org/[0m [200 OK] [1mCountry[0m[[0m[22mCANADA[0m][[1m[31mCA[0m], [1mHTTPServer[0m[[1m[36mHackThisSite IRC[0m], [1mIP[0m[[0m[22m137.74.187.153[0m], [1mPoweredBy[0m[[0m[22mFreeBSD,PHP[0m], [1mStrict-Transport-Security[0m[[0m[22mmax-age=31536000; includeSubDomains; preload[0m], [1mTitle[0m[[1m[33mHackThisSite IRC[0m]
+ 
+===https://irc.hackthissite.org===
+[1m[34mhttps://irc.hackthissite.org[0m [301 Moved Permanently] [1mCountry[0m[[0m[22mCANADA[0m][[1m[31mCA[0m], [1mHTTPServer[0m[[1m[31mUbuntu Linux[0m][[1m[36mnginx/1.18.0 (Ubuntu)[0m], [1mIP[0m[[0m[22m137.74.187.150[0m], [1mRedirectLocation[0m[[0m[22mhttps://www.irc.hackthissite.org/[0m], [1mStrict-Transport-Security[0m[[0m[22mmax-age=63072000; includeSubDomains; preload[0m], [1mTitle[0m[[1m[33m301 Moved Permanently[0m], [1mUncommonHeaders[0m[[0m[22mx-content-type-options[0m], [1mX-Frame-Options[0m[[0m[22mDENY[0m], [1mnginx[0m[[1m[32m1.18.0[0m]
+[1m[34mhttps://www.irc.hackthissite.org/[0m [200 OK] [1mCountry[0m[[0m[22mCANADA[0m][[1m[31mCA[0m], [1mHTTPServer[0m[[1m[36mHackThisSite IRC[0m], [1mIP[0m[[0m[22m137.74.187.153[0m], [1mPoweredBy[0m[[0m[22mFreeBSD,PHP[0m], [1mStrict-Transport-Security[0m[[0m[22mmax-age=31536000; includeSubDomains; preload[0m], [1mTitle[0m[[1m[33mHackThisSite IRC[0m]
+ 
+===https://h5ai.hackthissite.org===
+[1m[34mhttps://h5ai.hackthissite.org[0m [200 OK] [1mHTML5[0m, [1mHTTPServer[0m[[1m[36mGitHub.com[0m], [1mIP[0m[[0m[22m185.199.111.153[0m], [1mTitle[0m[[1m[33mHackThisSite / h5ai[0m], [1mUncommonHeaders[0m[[0m[22maccess-control-allow-origin,x-proxy-cache,x-github-request-id,x-served-by,x-cache-hits,x-timer,x-fastly-request-id[0m], [1mVia-Proxy[0m[[0m[22m1.1 varnish[0m]
+ 
+===https://ctf.hackthissite.org===
+[1m[34mhttps://ctf.hackthissite.org[0m [200 OK] [1mHTML5[0m, [1mHTTPServer[0m[[1m[36mGitHub.com[0m], [1mIP[0m[[0m[22m185.199.111.153[0m], [1mMetaGenerator[0m[[0m[22mJekyll v3.7.4[0m], [1mOpen-Graph-Protocol[0m, [1mScript[0m[[0m[22mapplication/ld+json[0m], [1mTitle[0m[[1m[33m35C3 Junior CTF Write-ups Posted | HackThisSite CTF[0m], [1mUncommonHeaders[0m[[0m[22maccess-control-allow-origin,x-proxy-cache,x-github-request-id,x-served-by,x-cache-hits,x-timer,x-fastly-request-id[0m], [1mVia-Proxy[0m[[0m[22m1.1 varnish[0m], [1mX-UA-Compatible[0m[[0m[22mIE=edge[0m]
+ 
+===https://wolf.irc-v6.hackthissite.org===
+ 
+===https://vm-200.outbound.firewall.hackthissite.org===
+ 
+===https://vm-150.outbound.firewall.hackthissite.org===
+ 
+===https://vm-099.outbound.firewall.hackthissite.org===
+ 
+===https://vm-050.outbound.firewall.hackthissite.org===
+ 
+===https://vm-005.outbound.firewall.hackthissite.org===
+ 
+===https://v3stage.hackthissite.org===
+ 
+===https://v3stage-cdn.hackthissite.org===
+ 
+===https://v3dev.hackthissite.org===
+ 
+===https://status-new.hackthissite.org===
+ 
+===https://stats.hackthissite.org===
+[1m[34mhttps://stats.hackthissite.org[0m [200 OK] [1mCookies[0m[[0m[22mPIWIK_SESSID[0m], [1mCountry[0m[[0m[22mCANADA[0m][[1m[31mCA[0m], [1mHTML5[0m, [1mHTTPServer[0m[[1m[36mHackThisSite Load Balancer v2[0m], [1mHttpOnly[0m[[0m[22mPIWIK_SESSID[0m], [1mIP[0m[[0m[22m137.74.187.136[0m], [1mJQuery[0m, [1mMetaGenerator[0m[[0m[22mPiwik - free/libre analytics platform[0m], [1mPiwik[0m, [1mScript[0m[[0m[22mtext/javascript[0m], [1mStrict-Transport-Security[0m[[0m[22mmax-age=31536000; includeSubDomains; preload[0m], [1mTitle[0m[[1m[33mSign in -                     Piwik[0m], [1mX-Frame-Options[0m[[0m[22msameorigin, SAMEORIGIN[0m], [1mX-UA-Compatible[0m[[0m[22mIE=EDGE[0m]
+ 
