@@ -1,0 +1,11 @@
+200 OK
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Retry-Count: 0
+Content-Security-Policy: default-src 'self' 'unsafe-inline' hetrixtools.com s.hetrix.io i.hetrix.io *.gstatic.com fonts.googleapis.com *.google-analytics.com *.twitter.com; img-src 'self' data: hetrixtools.com s.hetrix.io i.hetrix.io *.gstatic.com
+Strict-Transport-Security: max-age=63072000; includeSubdomains
+Referrer-Policy: strict-origin-when-cross-origin
+Set-Cookie: PHPSESSID=fo52qlhephundav83rc3sro738; expires=Sat, 25 Jul 2026 02:11:46 GMT; Max-Age=2592000; path=/; secure; HttpOnly; SameSite=Lax
+Alt-Svc: h3=":443"; ma=2592000
+Content-Type: text/html; charset=UTF-8
+Date: Thu, 25 Jun 2026 02:11:46 GMT

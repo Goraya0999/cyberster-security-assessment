@@ -1,0 +1,47 @@
+
+; <<>> DiG 9.20.23-1-Debian <<>> +trace hackthissite.org
+;; global options: +cmd
+.			87202	IN	NS	i.root-servers.net.
+.			87202	IN	NS	h.root-servers.net.
+.			87202	IN	NS	a.root-servers.net.
+.			87202	IN	NS	j.root-servers.net.
+.			87202	IN	NS	f.root-servers.net.
+.			87202	IN	NS	g.root-servers.net.
+.			87202	IN	NS	k.root-servers.net.
+.			87202	IN	NS	b.root-servers.net.
+.			87202	IN	NS	e.root-servers.net.
+.			87202	IN	NS	c.root-servers.net.
+.			87202	IN	NS	l.root-servers.net.
+.			87202	IN	NS	d.root-servers.net.
+.			87202	IN	NS	m.root-servers.net.
+.			87202	IN	RRSIG	NS 8 0 518400 20260707200000 20260624190000 54393 . Se6wxMsmm6sb3v1JhXPxQ/IwrC/7uBagNqujcZFqJlpPYjyhiTzF9PmY XQIdFkCHREsyYT7A3u8Rg41RqqbcmIuUfJzBIymVsliz71ZvXSaaFZLR TyFaU1p8m+gdxPgi1NPqqC+TltANoPy8M3a65GRPjuH+4zwi8aY8NJhQ xg/qZrqJmqsTp14b+KcokPaG3bo/mkbraRqRzjsQjyB8sQNPpiCl/01M lIsLbXEq1/Kn2A1WA6l3pmLOtG23Qnm1JK4O7taBuMesqequDxkLAOuR ZaYFHnK4dbAbyDVVXK7j83XiFnRgaG1Sg8QlPmC209sdIk4gmIK3YGYT MIjosQ==
+;; Received 525 bytes from 127.0.0.53#53(127.0.0.53) in 792 ms
+
+org.			172800	IN	NS	d0.org.afilias-nst.org.
+org.			172800	IN	NS	a2.org.afilias-nst.info.
+org.			172800	IN	NS	b2.org.afilias-nst.org.
+org.			172800	IN	NS	a0.org.afilias-nst.info.
+org.			172800	IN	NS	b0.org.afilias-nst.org.
+org.			172800	IN	NS	c0.org.afilias-nst.info.
+org.			86400	IN	DS	26974 8 2 4FEDE294C53F438A158C41D39489CD78A86BEB0D8A0AEAFF14745C0D 16E1DE32
+org.			86400	IN	RRSIG	DS 8 1 86400 20260707200000 20260624190000 54393 . lfMD4ihu0LVGr2k5DMavU3TZpwcWo1VYPq64hcKNIUEJKgfWvXQ5FelK Tcoik0Ejlgv4sG+Mp0GPDndcxAqdOqQuw4B2sFKa0d6EJyKnySb627TD hRj1lPGFTcimJ9givxMIrLZzncB1CMFiUoQAQMewmsXwYnfNfEmFYxYE ZtQjfy/OzQkDO4ElxzEDCNp/oNuFGePbICQHg+OaCvAKpzp1Tvfmwgsv D2/q4jxAAtfVGEVIjMKsvXAna8LOqNeCTucsg7pyHdyySze6EB8qau03 jwF6WsuCQ25IM5bmV/fqbWxmrwKf00ikEanfNLIJVgy1fN8CMzlXNRDJ woK1Bw==
+;; Received 810 bytes from 170.247.170.2#53(b.root-servers.net) in 160 ms
+
+hackthissite.org.	3600	IN	NS	j.ns.buddyns.com.
+hackthissite.org.	3600	IN	NS	c.ns.buddyns.com.
+hackthissite.org.	3600	IN	NS	h.ns.buddyns.com.
+hackthissite.org.	3600	IN	NS	f.ns.buddyns.com.
+hackthissite.org.	3600	IN	NS	g.ns.buddyns.com.
+gdtpongmpok61u9lvnipqor8lra9l4t0.org. 3600 IN NSEC3 1 1 0 332539EE7F95C32A GDTREA8KMJ2RNEQEN4M2OGJ26KFSUKJ7 NS SOA RRSIG DNSKEY NSEC3PARAM
+gdtpongmpok61u9lvnipqor8lra9l4t0.org. 3600 IN RRSIG NSEC3 8 2 3600 20260716012713 20260625002713 22809 org. N9ImoB7jsjjkQngzFjYqyyqelUgEm63x+N4CUyZVvHBMvpjYcXTkkpFW uLu/ahXLmb5Rfa3ShZ2vblxhH/ehz++52g3oPwYp7sjdOOO0Rs4A8ZVE R+mIMtlmaV80nEEbTNCz/4QeOMjeKplMFIFwNTnRI1sBOZRs08Qddrjm 6PQ=
+7haqnnnbknh17o0tm2aqhjch9q2o3brs.org. 3600 IN NSEC3 1 1 0 332539EE7F95C32A 7HASE29QALBJ1L3LUGTN79RCOQMFTGM2 NS DS RRSIG
+7haqnnnbknh17o0tm2aqhjch9q2o3brs.org. 3600 IN RRSIG NSEC3 8 2 3600 20260708153506 20260617143506 22809 org. AUVFc9VA/3DDioHrnqUo5xkG8qYaMaf/lYwjNzd0sI6fTMAgd6QhfbSL 06SprKRgQGzFByg4fTQth8fmajjZnqwwKT6qCrqJ9Iv8TsBfDlGQuqcH 5CTU8XBiOyP0WZawNeboxR4nLzHzBy4QMQHwv6r2yP73hxf8fNJPPpPY Sak=
+;; Received 640 bytes from 199.19.53.1#53(c0.org.afilias-nst.info) in 192 ms
+
+hackthissite.org.	3600	IN	A	137.74.187.101
+hackthissite.org.	3600	IN	A	137.74.187.100
+hackthissite.org.	3600	IN	A	137.74.187.103
+hackthissite.org.	3600	IN	A	137.74.187.102
+hackthissite.org.	3600	IN	A	137.74.187.104
+;; Received 125 bytes from 192.184.93.99#53(g.ns.buddyns.com) in 352 ms
+

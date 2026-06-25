@@ -1,0 +1,15 @@
+total 56
+drwxrwxr-x 5 goraya000 goraya000 4096 Jun 25 06:35 .
+drwxrwxr-x 3 goraya000 goraya000 4096 Jun 25 04:56 ..
+drwxrwxr-x 2 goraya000 goraya000 4096 Jun 25 05:50 analysis
+-rw-rw-r-- 1 goraya000 goraya000    0 Jun 25 06:35 backup_finding_result.txt
+-rwxrwxr-x 1 goraya000 goraya000   14 Jun 25 05:19 crt_v2.sh
+-rw-rw-r-- 1 goraya000 goraya000 2398 Jun 25 06:28 dig_results.txt
+-rw-rw-r-- 1 goraya000 goraya000 3325 Jun 25 06:29 Dns_dig_resolutation_path.txt
+drwxrwxr-x 2 goraya000 goraya000 4096 Jun 25 05:55 final_results
+-rw-rw-r-- 1 goraya000 goraya000  306 Jun 25 06:26 nslookup_results.txt
+drwxrwxr-x 7 goraya000 goraya000 4096 Jun 25 05:29 raw_output
+-rw-rw-r-- 1 goraya000 goraya000  576 Jun 25 06:09 top_20_subs.txt
+-rw-rw-r-- 1 goraya000 goraya000  736 Jun 25 06:10 urls.txt
+-rw-rw-r-- 1 goraya000 goraya000 7738 Jun 25 06:18 whatweb_results.txt
+-rw-rw-r-- 1 goraya000 goraya000 2333 Jun 25 06:25 whois_results.txt

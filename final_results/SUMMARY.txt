@@ -1,0 +1,109 @@
+##############################################################
+# EXECUTIVE SUMMARY — hackthissite.org RECON
+# Red Team Week 1 | CyberStr Internship
+# Intern: Muhammad Shafiq Goraya | Instructor: Umar Niaz
+# Date: 2026-06-25
+##############################################################
+
+╔══════════════════════════════════════════════════════════╗
+║           SCOPE & OBJECTIVES                             ║
+╚══════════════════════════════════════════════════════════╝
+  Target    : hackthissite.org (authorized training platform)
+  Tasks     : T01 Subdomain Recon | T02 Tech Profiling |
+              T03 GitHub Dorking  | T04 Live Asset Filtering
+  Tools Used: Subfinder, Assetfinder, Amass, CRT.sh,
+              DNSDumpster, WhatWeb, Wappalyzer, dig, whois,
+              nslookup, httprobe, httpx, Aquatone, GoWitness
+
+╔══════════════════════════════════════════════════════════╗
+║           SUBDOMAIN DISCOVERY (Task 01)                  ║
+╚══════════════════════════════════════════════════════════╝
+  Tool             Subdomains Found
+  ───────────────  ────────────────
+  Subfinder        63 unique entries
+  Assetfinder      29 unique entries
+  Amass (passive)  1 (limited - scope note)
+  CRT.sh           Wildcard + selective entries
+  DNSDumpster      Cross-referenced (manual download)
+
+  Merged & Deduplicated : 58 unique subdomains
+  High Confidence (4 sources) : 9
+  High Confidence (3 sources) : 29
+  Medium Confidence (2 sources): 19
+  Low Confidence (1 source)   : 1
+
+╔══════════════════════════════════════════════════════════╗
+║           LIVE ASSET FILTERING (Task 04)                 ║
+╚══════════════════════════════════════════════════════════╝
+  Tool: httpx + httprobe
+
+  Total subdomains tested : 58
+  Total live (2xx/3xx)    : 20
+  Dead / Error (4xx/5xx)  : ~10
+  Not responding          : ~28
+
+  Visual recon (Aquatone): 4 screenshots captured
+  hp.hackthissite.org    → LOGIN PANEL identified ⚠️
+  h5ai.hackthissite.org  → Placeholder page (development)
+  irc.hackthissite.org   → IRC community server
+  mirror.hackthissite.org→ Open directory listing
+
+╔══════════════════════════════════════════════════════════╗
+║           INFRASTRUCTURE PROFILE (Task 02)               ║
+╚══════════════════════════════════════════════════════════╝
+  Hosting        : OVH (Roubaix, France) — main cluster
+  IP Range       : 137.74.187.96-104 (load-balanced)
+  CDN            : Fastly + Varnish (CTF / h5ai subdomains)
+  DNS Provider   : BuddyNS (anycast)
+  Email          : Google Workspace (MX → aspmx.l.google.com)
+  Web Server     : Custom HackThisSite server + Nginx 1.18.0
+  DNSSEC         : NOT CONFIGURED ⚠️
+
+╔══════════════════════════════════════════════════════════╗
+║           KEY FINDINGS & RISKS                           ║
+╚══════════════════════════════════════════════════════════╝
+  SEVERITY  FINDING
+  ────────  ──────────────────────────────────────────────
+  MEDIUM    jQuery 1.8.1 (2012) — EOL, multiple CVEs
+  MEDIUM    mirror.hackthissite.org — Open directory listing
+  MEDIUM    stats.hackthissite.org — Piwik analytics panel exposed
+  MEDIUM    forums.hackthissite.org — 403 (possible hidden panel)
+  LOW       DNSSEC not configured on root domain
+  LOW       robots.txt reveals /missions/ directory structure
+  LOW       5x firewall egress VM IPs leaked via DNS records
+  LOW       v3dev/v3stage subdomains present (dev environments)
+  INFO      GitHub dorking: no credential leaks found
+  INFO      No backup files (.bak/.env/.sql) accessible
+
+╔══════════════════════════════════════════════════════════╗
+║           ATTACK SURFACE MAP                             ║
+╚══════════════════════════════════════════════════════════╝
+  Category              Count
+  ───────────────────   ─────
+  Total subdomains       58
+  Live subdomains        20
+  Login panels           1  (hp.hackthissite.org)
+  Open directories       1  (mirror.hackthissite.org)
+  Dev/staging envs       2  (v3dev, v3stage)
+  Analytics panels       1  (stats.hackthissite.org)
+  IRC infrastructure     7  (various irc.* subdomains)
+  Firewall egress IPs    5  (vm-005 to vm-200)
+
+╔══════════════════════════════════════════════════════════╗
+║           CONCLUSIONS                                    ║
+╚══════════════════════════════════════════════════════════╝
+  hackthissite.org maintains a moderately complex attack
+  surface with ~58 discoverable subdomains. The platform
+  is security-conscious (HSTS, CSP, no leaked credentials),
+  but several findings warrant attention in a real-world
+  engagement: outdated jQuery, open file directory, and
+  exposed analytics/dev environments.
+
+  No critical vulnerabilities were identified within scope.
+  Passive recon only — no active exploitation attempted.
+
+##############################################################
+# Files: attack_surface.txt | live_hosts.txt |
+#        tech_profile.txt   | dorking_results.txt
+# Screenshots: /screenshots/ directory (15 images)
+##############################################################

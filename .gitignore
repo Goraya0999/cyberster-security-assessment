@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+env/
+
+# Archives
+*.zip
+aquatone_linux_amd64_1.7.0.zip
+
+# Temp files
+*.tmp
+*.bak
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large binary session files (keep html report, skip json if too large)
+# aquatone_results/aquatone_session.json
